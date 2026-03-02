@@ -2,9 +2,9 @@
 ## 🤖 AI-Powered Smart Agriculture Decision Support System
 
 📘 **Project Type:** Academic / Portfolio Project  
-👨‍💻 **Developer:** Parashurama Gachhinmani  
-🎓 **Qualification:** MCA Graduate  
-💼 **Role:** Full Stack Developer (PHP, MySQL, AI Integration)  
+👨‍💻 **Developer:** Jyoti Basanagoudra
+🎓 **Qualification:** 3rd MCA Post Gradutation  
+💼 **Role:** Intern 
 
 ---
 
@@ -63,7 +63,8 @@ The system provides:
 - User management  
 - Dataset management  
 - System monitoring  
-- Security and settings control  
+- Security and settings control
+- Subsicidy management  
 
 ---
 
@@ -77,9 +78,11 @@ AgroSafeAI follows layered architecture:
    - JavaScript
    - Bootstrap
 
-2. **Backend**
-   - PHP 8.x
-   - REST-style logic
+2. ### Backend
+- PHP 8.x
+- MySQL
+- XAMPP
+- Composer
 
 3. **Machine Learning**
    - PHP-ML library
@@ -94,36 +97,12 @@ AgroSafeAI follows layered architecture:
    - Market data integration
 
 ---
-
-## 🛠 Technologies Used
-
-### Backend
-- PHP 8.x
-- MySQL
-- XAMPP
-- Composer
-
-### Machine Learning
-- PHP-ML
-- Custom trained datasets
-
-### Frontend
-- HTML
-- CSS
-- JavaScript
-- Bootstrap
-
-### Database
-- MySQL
-
----
-
 ## ⚙ Installation and Setup
 
 ### 1. Clone repository
 
 ```bash
-git clone https://github.com/Parashu1999/ArgosafeAi.git
+git clone https://github.com/jyotibasanagoudra/ArgoSafeAi.git
 
 
 ### 2. Setup XAMPP
@@ -132,7 +111,7 @@ git clone https://github.com/Parashu1999/ArgosafeAi.git
 - Start Apache and MySQL
 - Move the project folder to:
 
-```bash
+```bash 
 htdocs/
 ``` 
 
@@ -161,7 +140,9 @@ php train.php
 This will generate .phpml model files inside the models/ directory.
 
 ### 6. Run the System
-Open your browser and go to: http://localhost/AgroSafeAI/
+Open your browser and go to: http://localhost/argosafeai/
+admin panel : http://localhost/argosafeai/admin/login.php
+user panel : http://localhost/argosafeai/login.php
 
 # AgroSafeAI Setup Guide
 
@@ -177,8 +158,7 @@ Open your browser and go to: http://localhost/AgroSafeAI/
 2. Move to htdocs folder
 3. Import database/agrosafe_db.sql in phpMyAdmin
 4. Start Apache & MySQL
-5. Open:
-http://localhost/agrosafeai
+5. Open: http://localhost/agrosafeai
 
 ## Admin Login
 Username: admin
